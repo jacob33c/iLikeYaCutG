@@ -15,7 +15,7 @@ def getLikeCount():
         return (likeCount,shareCount,commentCount,followCount)
 
 def iLikeYaCut():
-    os.system("afplay ~/Desktop/TikTokProjects/iLikeYaCut.mp3 ")
+    os.system("afplay iLikeYaCut.mp3 ")
 
 def update():
     initLikeCount = 0
